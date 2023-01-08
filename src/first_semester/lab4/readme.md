@@ -1,10 +1,17 @@
-# Task
-Solve Hanoi towers puzzle
-
-# Overview
-The Tower of Hanoi is a mathematical puzzle. It consists of three poles and a number of disks of different sizes which can slide onto any poles. The puzzle starts with the disk in a neat stack in ascending order of size in one pole, the smallest at the top thus making a conical shape. The objective of the puzzle is to move all the disks from one pole (say ‘source pole’) to another pole (say ‘destination pole’) with the help of the third pole (say auxiliary pole).
-
-The puzzle has the following two rules:
-
-      1. You can’t place a larger disk onto a smaller disk 
-      2. Only one disk can be moved at a time
+# TASK ON THIS LAB
+Fibonacci  numbers and Hanoi towers problems and algorithms
+Statement of the problem: read sections 3.4 and 10.2 of the handbook “Структури даних та алгоритми” by Dudar and Osyka in English.
+1.	Write three functions in Javascript / C++ that calculate a Fibonacci number F(n)
+	Recursively.
+	Iteratively.
+	By a closed form formula.
+2.	Using these functions calculate F(n) for n = 5, 15, 30, and 50. Register the time required by each function for each value of n to produce the result.
+3.	Comment on the results: 
+	What is the time-efficiency of each function? 
+	What is the complexity type of the Fibonacci numbers problem?
+4.	Choose or design some algorithm that solves the Hanoi towers problem (prints the sequence of commands to move one disk from some peg to some other peg according to the rules of the game).
+5.	Implement your algorithm.
+6.	Run your program for n = 5, 15, 30, and 50. Register the time required by your function for each value of n to produce the result.
+7.	Comment on the results: 
+	What is the time-efficiency of your function? 
+	What is the complexity type of the Hanoi towers problem?
