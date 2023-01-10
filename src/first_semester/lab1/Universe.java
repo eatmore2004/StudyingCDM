@@ -1,7 +1,6 @@
 package first_semester.lab1;
 
 import java.util.ArrayList;
-import static java.util.Arrays.copyOf;
 
 public class Universe {
     protected ArrayList<Set> sets = new ArrayList<>();
@@ -32,12 +31,6 @@ public class Universe {
         }
 
         return result;
-    }
-
-    protected void addItem(String item) {
-        String[] items_temp = copyOf(free_items, (free_items.length + 1));
-        items_temp[free_items.length] = item;
-        free_items = items_temp;
     }
 
 }
